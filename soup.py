@@ -13,3 +13,5 @@ for link in soup.findAll('a'):
 
 for element in episodes:
 	target.write(element + " ")
+
+target.close()
